@@ -1,0 +1,35 @@
+Input file: inputs/1.txt
+
+Impulse response: custom impulse response
+=========================================
+Input signal x[n]:
+  n =   -2, value =     1.0000
+  n =   -1, value =     0.0000
+  n =    0, value =     2.0000
+  n =    1, value =    -1.0000
+  n =    2, value =     0.0000
+  n =    3, value =     3.0000
+
+Impulse response h[n]:
+  n =   -1, value =     1.0000
+  n =    0, value =     2.0000
+  n =    1, value =     0.0000
+  n =    2, value =    -1.0000
+
+Output signal y[n]:
+  n =   -3, value =     1.0000
+  n =   -2, value =     2.0000
+  n =   -1, value =     2.0000
+  n =    0, value =     2.0000
+  n =    1, value =    -2.0000
+  n =    2, value =     1.0000
+  n =    3, value =     7.0000
+  n =    4, value =     0.0000
+  n =    5, value =    -3.0000
+
+Verification
+Output range: [-3, 5]
+Maximum absolute difference between two methods: 0
+
+Stem plot: outputs/1\plot\convolution.png
+Color plot: outputs/1\color\convolution.png
