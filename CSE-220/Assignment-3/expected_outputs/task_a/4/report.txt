@@ -1,0 +1,9 @@
+Task A -- big-integer multiplication by spectral convolution
+input file          : inputs/4.txt
+method              : fft
+digits of A / B     : 20000 / 20000
+base                : 10^4
+limbs of A / B      : 5000 / 5000
+transform length N  : 16384
+digits of product   : 40000
+verification        : MATCH

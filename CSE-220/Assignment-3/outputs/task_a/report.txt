@@ -1,0 +1,12 @@
+Task A -- single multiplication
+
+input file:        inputs/1.txt
+engine:             dft
+digits (a):         12
+digits (b):         9
+base:               10^4
+limbs (a):          3
+limbs (b):          3
+transform length N: 5
+digits (product):   21
+verification:       MATCH

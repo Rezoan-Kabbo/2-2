@@ -1,0 +1,9 @@
+Task B -- single blur
+
+input file:            images/skyline512.png
+image size:            512 x 512 x 3
+kernel:                bokeh (param=9.0), size 19 x 19
+engine:                fft
+linear-convolution size: 530 x 530
+transform size used N:  1024 x 1024
+verification (64x64 corner): max|spectral - direct| = 3.220e-15 -> MATCH

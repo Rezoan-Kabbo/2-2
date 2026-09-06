@@ -1,0 +1,8 @@
+Task B -- 2D convolution through the frequency domain
+image               : images/sunset512.png  (512 x 512, gray)
+kernel              : motion  (41 x 41)
+engine              : fft
+linear-conv size    : 552 x 552
+transform size      : 1024 x 1024
+max |spectral - direct| on 64x64 crop : 2.776e-16
+verification        : MATCH

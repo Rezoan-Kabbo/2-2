@@ -1,0 +1,9 @@
+Task B -- single blur
+
+input file:            images/sunset512.png
+image size:            512 x 512
+kernel:                motion (param=41.0), size 41 x 41
+engine:                fft
+linear-convolution size: 552 x 552
+transform size used N:  1024 x 1024
+verification (64x64 corner): max|spectral - direct| = 3.331e-16 -> MATCH

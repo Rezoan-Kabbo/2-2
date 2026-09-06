@@ -1,0 +1,8 @@
+Task B -- 2D convolution through the frequency domain
+image               : images/skyline512.png  (512 x 512, RGB)
+kernel              : bokeh  (19 x 19)
+engine              : fft
+linear-conv size    : 530 x 530
+transform size      : 1024 x 1024
+max |spectral - direct| on 64x64 crop : 3.331e-15
+verification        : MATCH
