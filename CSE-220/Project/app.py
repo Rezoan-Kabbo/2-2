@@ -14,6 +14,10 @@ Tabs (roughly Level 1 -> Level 3 from the project brief):
     4. Mic Decode     - record from the microphone, decode back to text (Level 3)
 """
 
+# To Install : & "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\python.exe" -m pip install -r requirements.txt
+# To Run : & "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\python.exe" d:/2-2/CSE-220/Project/app.py
+# To Check : & "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\python.exe" d:/2-2/CSE-220/Project/test_core.py
+
 import threading
 import tkinter as tk
 from tkinter import ttk, messagebox

@@ -805,8 +805,8 @@ e132 8123 131 9131 4010 c040 a111 205f
       <a name="addrWidth" val="4"/>
       <a name="appearance" val="classic"/>
       <a name="contents">addr/data: 4 16
-b40 a40 a00 a80 210 1 c00 cc0
-d00 b80 44 46 a28 c40 ac0 c80
+46 c00 c40 d00 ac0 b40 a80 a40
+44 a00 b80 1 210 a28 cc0 c80
 </a>
       <a name="dataWidth" val="16"/>
       <a name="labelvisible" val="true"/>
